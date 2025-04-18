@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Favicon e ícones para dispositivos móveis -->
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  <link rel="icon" href="assets/favicon.ico" sizes="16x16">
+  <link rel="icon" href="assets/favicon.ico" sizes="32x32">
+  <link rel="icon" href="assets/favicon.ico" sizes="96x96">
+  <link rel="icon" href="assets/favicon.ico" sizes="192x192">
+  <link rel="icon" href="assets/favicon.ico" sizes="512x512">
+
+  <!-- Título da Página -->
+  <title>Gerador de Link para WhatsApp</title>
+  
+  <!-- Outros links, estilos e scripts aqui -->
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://unpkg.com/imask"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Gerador de Link para WhatsApp</h2>
+
+    <label for="phone">Número com DDI (ex: 5511999999999):</label>
+    <input type="text" id="phone" placeholder="Digite o número"/>
+
+    <label for="message">Mensagem:</label>
+    <textarea id="message" rows="3" placeholder="Digite a mensagem..."></textarea>
+
+    <button id="generateBtn">Gerar Link</button>
+
+    <div id="qrcode" style="margin-top: 1rem; text-align: center;"></div>
+    <button id="downloadQrBtn" class="copy-btn">Baixar QR Code</button>
+
+    <div id="linkOutput" class="link-output hidden">
+      <p id="whatsappLink"></p>
+      <button class="copy-btn" id="copyBtn">Copiar Link</button>
+    </div>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="https://unpkg.com/imask"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+</body>
+</html>
