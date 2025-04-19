@@ -1,0 +1,27 @@
+{
+    "name": "Gerador de Link WhatsApp",
+    "short_name": "WhatsAppLink",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#25D366",
+    "orientation": "portrait",
+    "icons": [
+      {
+        "src": "assets/favicon.ico",
+        "sizes": "64x64",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "assets/favicon.ico",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "assets/favicon.ico",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
