@@ -63,6 +63,15 @@ body {
     border-radius: 10px;
     word-wrap: break-word;
   }
+
+  footer{
+    margin-top: 1.5rem;
+  }
+
+  a{
+    color: #fff;
+   
+  }
   
   .copy-btn {
     background-color: #128c7e;
